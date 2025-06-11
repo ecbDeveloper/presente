@@ -1,4 +1,3 @@
-import reinicio from '/reinicio.mp3'
 import { AudioPlayer } from "react-audio-play";
 
 const musicasData = [
@@ -23,22 +22,17 @@ export function Musicas() {
 
 
 			{musicasData.map(musica => (
-				<div className="lg:w-[30.5rem] md:w-fit bg-zinc-100 flex flex-col gap-10 rounded-xl p-5 items-center" key={musica.src}>
-					<h2 className="text-2xl font-black text-center wrap-break-word text-indigo-300">
-						{musica.message}
-					</h2>
-					<AudioPlayer src={musica.src} className="w-full" />
+				<div className="pb-8">
+					<div className="lg:w-[30.5rem] md:w-fit bg-zinc-100 flex flex-col gap-10 rounded-xl p-5 items-center" key={musica.src}>
+						<h2 className="text-2xl font-black text-center wrap-break-word text-indigo-300">
+							{musica.message}
+						</h2>
+						<AudioPlayer src={musica.src} className="w-full" />
+					</div>
 				</div>
 			))}
 
 			<div className="pb-8 flex flex-col items-center gap-10">
-				<div className="lg:w-[30.5rem] md:w-fit bg-zinc-100 flex flex-col gap-10 rounded-xl p-5 items-center">
-					<h2 className="text-2xl font-black text-center wrap-break-word text-indigo-300">
-						QUANDO ESTAMOS LONGE, SÓ PENSO O QUANTO EU QUERO QUE VOCÊ FIQUE MAIS PERTO DE MIM
-					</h2>
-					<AudioPlayer src={reinicio} className="w-full" />
-				</div>
-
 				<div className="lg:w-[30.5rem] md:w-fit bg-zinc-100 flex flex-col gap-10 rounded-xl p-5 items-center">
 					<h2 className="text-xl font-black text-center text-indigo-300">EU PODERIA MONTAR UMA PLAYLIST COM 100 MUSÍCAS QUE ME FAZEM PENSAR EM VOCÊ</h2>
 					<h2 className="text-xl font-black text-center text-indigo-300">MAS ESCOLHI ESSAS PARA TRANSMITIR 0,001% DO MEU AMOR</h2>
