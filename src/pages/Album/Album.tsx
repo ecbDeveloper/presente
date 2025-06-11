@@ -20,28 +20,28 @@ export function Album() {
 					<PhotoDescription date="03/03/2022" description="Nossa segunda viagem juntos" />
 				</PolaroidBox>
 
+				<PolaroidBox imgSrc={'/primeiro-dia-namorados.jpeg'} imgPosition='center'>
+					<PhotoDescription date="12/06/2022" description="Nosso primeiro dia dos namorados" />
+				</PolaroidBox>
+
 				<PolaroidBox imgSrc={'/primeiro-show.jpeg'} imgPosition='center'>
-					<PhotoDescription date="12/06/2022" description="Nosso primeiro show juntos" />
+					<PhotoDescription date="30/08/2022 " description="Nosso primeiro show juntos" />
 				</PolaroidBox>
 
 				<PolaroidBox imgSrc={'/fivela.jpeg'} imgPosition='ríght'>
-					<PhotoDescription date="30/08/2022" description="O dia que você perdeu a fivela do salto KKKKKK" />
+					<PhotoDescription date="18/12/2022" description="O dia que você perdeu a fivela do salto KKKKKK" />
 				</PolaroidBox>
 
 				<PolaroidBox imgSrc={'/primeiro-reveillon.jpeg'} imgPosition='top'>
-					<PhotoDescription date="18/12/2022" description="Nosso segundo ano novo juntos" />
+					<PhotoDescription date="31/12/2022" description="Nosso segundo ano novo juntos" />
 				</PolaroidBox>
 
 				<PolaroidBox imgSrc={'/primeira-vez-sozinhops.jpeg'} imgPosition='top'>
-					<PhotoDescription date="31/12/2022" description="Uma das primeiras vezes da gente realmente sozinhos" />
+					<PhotoDescription date="13/02/2023" description="Uma das primeiras vezes da gente realmente sozinhos" />
 				</PolaroidBox>
 
 				<PolaroidBox imgSrc={'/trend-beijinhos.jpeg'} imgPosition='top'>
-					<PhotoDescription date="13/02/2023" description="Trend dos beijinhos" />
-				</PolaroidBox>
-
-				<PolaroidBox imgSrc={'/primeiro-dia-namorados.jpeg'} imgPosition='center'>
-					<PhotoDescription date="22/05/2023" description="Nosso primeiro dia dos namorados" />
+					<PhotoDescription date="22/05/2023" description="Trend dos beijinhos" />
 				</PolaroidBox>
 
 				<PolaroidBox imgSrc={'/sgundo-dia-namorados.jpeg'} imgPosition='bottom'>
