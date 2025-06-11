@@ -3,15 +3,14 @@ import { AudioPlayer } from "react-audio-play";
 
 const musicasData = [
 	{ src: '/bb.mp3', message: "DESDE O DIA QUE TE CONHECI, EU TINHA CERTEZA QUE EU E VOCÊ SOMOS COISA DE ALMA." },
-	{ src: '/reinicio.mp3', message: "EU TE QUIS MINHA VIDA TODA, LHE CONFESSO" },
-	{ src: '/lisboa.mp3', message: "EU FIZ UM PEDIDO PRA ESTRELA CADENTE, PORÉM JAMAIS IMAGINARIA QUE VIRIA ALGO TÃO PERFEITO" },
-	{ src: '/portugal.mp3', message: "A COISA QUE MAIS QUERO NESSE MUNDO, É PARTILHAR A VIDA BOA COM VOCÊ" },
-	{ src: '/partilhar.mp3', message: "QUERO REALIZAR TODOS OS MEUS PLANOS E SONHOS AO SEU LADO" },
-	{ src: '/planos.mp3', message: "VOCÊ ME FAZ SER UMA PESSOA MELHOR A CADA DIA, VOCÊ É A LUZ DO SOL NA MINHA VIDA" },
-	{ src: '/best_part.mp3', message: "DEPOIS QUE TEU TE CONHECI, FICOU DIFICIL DE VIVER SEM VOCÊ" },
-	{ src: '/pupila.mp3', message: "TODO DIA EU PRECISO DIZER QUE TE AMO, POIS A CADA DIA ESSE AMOR SÓ CRESCE" },
-	{ src: '/preciso_dizer_que_te_amo.mp3', message: "NESSE MUNDO LOUCO E COMPLEXO, NÃO PRECISEI DE OUTRA VIDA PRA VOCÊ SER A MINHA VIDA" },
-	{ src: '/outra_vida.mp3', message: "VOCÊ ME ENSINOU COMO AMAR DE VERDADE E QUE O AMOR, É COMO UM PEDACINHO DE CÉU" },
+	{ src: '/lisboa.mp3', message: "EU TE QUIS MINHA VIDA TODA, LHE CONFESSO" },
+	{ src: '/portugal.mp3', message: "EU FIZ UM PEDIDO PRA ESTRELA CADENTE, PORÉM JAMAIS IMAGINARIA QUE VIRIA ALGO TÃO PERFEITO" },
+	{ src: '/partilhar.mp3', message: "A COISA QUE MAIS QUERO NESSE MUNDO, É PARTILHAR A VIDA BOA COM VOCÊ" },
+	{ src: '/planos.mp3', message: "QUERO REALIZAR TODOS OS MEUS PLANOS E SONHOS AO SEU LADO" },
+	{ src: '/best_part.mp3', message: "VOCÊ ME FAZ SER UMA PESSOA MELHOR A CADA DIA, VOCÊ É A LUZ DO SOL NA MINHA VIDA" },
+	{ src: '/pupila.mp3', message: "DEPOIS QUE TEU TE CONHECI, FICOU DIFICIL DE VIVER SEM VOCÊ" },
+	{ src: '/preciso_dizer_que_te_amo.mp3', message: "TODO DIA EU PRECISO DIZER QUE TE AMO, POIS A CADA DIA ESSE AMOR SÓ CRESCE" },
+	{ src: '/outra_vida.mp3', message: "NESSE MUNDO LOUCO E COMPLEXO, NÃO PRECISEI DE OUTRA VIDA PRA VOCÊ SER A MINHA VIDA" },
 	{ src: '/love_love.mp3', message: "VOCÊ ME ENSINOU COMO AMAR DE VERDADE E QUE O AMOR, É COMO UM PEDACINHO DE CÉU" },
 ];
 
