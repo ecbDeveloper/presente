@@ -8,7 +8,7 @@ export function Home() {
 			<h2 className="text-4xl font-black mb-8">OUÇA ESSE AUDIO</h2>
 
 			<PolaroidBox imgPosition="center" imgSrc="/primeira_foto.jpeg">
-				<MyAudioPlayer audioSrc="/bb.mp3" />
+				<MyAudioPlayer audioSrc="/meu_audio.mp3" />
 			</PolaroidBox>
 
 		</div>
